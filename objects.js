@@ -9,3 +9,5 @@ function removeFromPlaylist(object, artist) {
   delete object.artist
   return object
 }
+
+removeFromPlaylist(playlist, TheDearHunter)
