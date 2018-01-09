@@ -1,5 +1,6 @@
 var playlist = {TheDearHunter: "The Lake South"}
 
 function updatePlaylist(object, artist, string) {
-  object.artist
+  object[artist] = string
+  return object
 }
