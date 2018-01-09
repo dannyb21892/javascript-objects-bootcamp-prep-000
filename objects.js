@@ -12,4 +12,5 @@ function removeFromPlaylist(object, artist) {
 
 console.log(playlist)
 removeFromPlaylist(playlist, "TheDearHunter")
+delete playlist.TheDearHunter
 console.log(playlist)
