@@ -10,4 +10,6 @@ function removeFromPlaylist(object, artist) {
   return object
 }
 
+console.log(playlist)
 removeFromPlaylist(playlist, "TheDearHunter")
+console.log(playlist)
